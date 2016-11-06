@@ -1,0 +1,131 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">Task #1 : Fix Grid Partition</h3>
+      </div>
+      <div class="panel-body">
+        <p>We have a Grid Structure, which divided to be 3 part(same width), but unfortunately Grid we have not divided properly.</p>
+        <label><strong>Goals:</strong></label>
+        <ul>
+          <li>Find the problem & fix this grid so grid only divided in one row</li>
+          <li>Looks row side in Grid not linear with the Task(Panel). Make it looks on one line</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Change ur code for Task #1:  -->
+    <div class="form-group">
+      <div class="col-md-5">
+        <h3 class="text-center bold">Left Side</h3>
+        <blockquote>
+          <p class="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+        </blockquote>
+      </div>
+      <div class="col-md-5">
+        <h3 class="text-center">Center Side</h3>
+        <blockquote>
+          <p class="text-justify">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo."</p>
+        </blockquote>
+      </div>
+      <div class="col-md-5">
+        <h3 class="text-center">Right Side</h3>
+        <blockquote>
+          <p class="text-justify">"Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+        </blockquote>
+      </div>
+    </div>
+    <!-- end code for Task #1 -->
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">Task #2 : Make A Grid with reversed position</h3>
+      </div>
+      <div class="panel-body">
+        <p>We want to make 1 column in 2 rows, which first row have column in the left, otherwise for second row.</p>
+        <label><strong>Goals:</strong></label>
+        <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#imgMTask2">
+          <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+        </button>
+        <div class="modal fade" id="imgMTask2" tabindex="-1" role="dialog" aria-labelledby="imgMTask2Label">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="imgMTask2Label">Image Task 2</h4>
+              </div>
+              <div class="modal-body">
+                <%= image_tag("grid_img_task2.png", class: "img-responsive") %>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul>
+          <li>Create 2 rows which contain column position reversed each other.</li>
+      </div>
+    </div>
+
+    <!-- Fill ur code for Task #2:  -->
+    <p>...</p> <!-- Remove this line later -->
+    <!-- end code for Task #2 -->
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">Task #3 : Multi Platform difference View</h3>
+      </div>
+      <div class="panel-body">
+        <p>We want display difference view each Platform / Device which Condition View wants: (Use sample in Task #1)</p>
+        <ul>
+          <li>When Viewport >= 1200px: Left & Center Side have same width, but Right Side have full width in a rows</li>
+          <li>When Viewport between(992..1199)px: All Columns divided equals(Normal View)</li>
+          <li>When Viewport between(768..991)px: Left Side have full width in a rows, while Center & Right have same width</li>
+          <li>When Viewport < 768px: All Columns have full width</li>
+        </ul>
+        <label><strong>Goals:</strong></label>
+        <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#imgMTask3">
+          <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+        </button>
+        <div class="modal fade" id="imgMTask3" tabindex="-1" role="dialog" aria-labelledby="imgMTask3Label">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="imgMTask3Label">Image Task 3</h4>
+              </div>
+              <div class="modal-body">
+                <label>- Viewport >= 1200px</label>
+                <%= image_tag("grid_img_task_3_4.png", class: "img-responsive") %>
+                <label>- Viewport between (992..1199)px</label>
+                <%= image_tag("grid_img_task_3_3.png", class: "img-responsive") %>
+                <label>- Viewport between(768..991)px</label>
+                <%= image_tag("grid_img_task_3_2.png", class: "img-responsive") %>
+                <label>- Viewport < 768px</label>
+                <%= image_tag("grid_img_task_3_1.png", class: "img-responsive") %>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul>
+          <li>Manipulate each column to fullfill references above</li>
+      </div>
+    </div>
+
+    <!-- Fill ur code for Task #3:  -->
+    <p>...</p> <!-- Remove this line later -->
+    <!-- end code for Task #3 -->
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <%= link_to "Return", root_path, class: "btn btn-primary btn-block" %>
+  </div>
+</div>
